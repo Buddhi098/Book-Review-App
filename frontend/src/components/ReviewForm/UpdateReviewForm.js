@@ -155,6 +155,7 @@ const UpdateReviewForm = ({ existingReview, fetchData }) => {
                                         {...params}
                                         label="Book Title"
                                         name="title"
+                                        onChange={handleChange}
                                         error={!!errors.title}
                                         helperText={errors.title}
                                         fullWidth
